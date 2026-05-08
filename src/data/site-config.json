@@ -28,7 +28,7 @@
     "main": [
       { "label": "About", "href": "/about" },
       { "label": "Furniture Packs", "href": "/furniture-packs" },
-      { "label": "Hosts", "href": "/airbnb-host" },
+      { "label": "Short-let", "href": "/short-let" },
       { "label": "Contact", "href": "/contact" }
     ],
     "secondary": [
@@ -44,12 +44,6 @@
       { "platform": "instagram", "url": "https://instagram.com/boomhaus.design" },
       { "platform": "whatsapp", "url": "https://wa.me/447767677198" }
     ]
-  },
-  "site": {
-  "name": "BoomHaus",
-  "domain": "https://boomhaus.design",
-  "email": "hello@boomhaus.design",
-  "whatsapp": "447767677198"
 },
   "analytics": {
     "ga4Id": "G-DZM9SB4J9V"
