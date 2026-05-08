@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= page.title %></title>
+  <meta name="description" content="<%= page.description %>">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="<%= site.domain %><%= page.slug %>">
+  
+  <!-- OG Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="<%= page.title %>">
+  <meta property="og:description" content="<%= page.description %>">
+  <meta property="og:url" content="<%= site.domain %><%= page.slug %>">
+  <meta property="og:site_name" content="<%= site.name %>">
+  <meta property="og:image" content="<%= site.domain %>/og-images/<%= page.packSlug %>-gallery.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="<%= page.title %>">
+  <meta name="twitter:image" content="<%= site.domain %>/og-images/<%= page.packSlug %>-gallery.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon/favicon.svg">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="/styles/main.css">
+  
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=<%= site.analytics.ga4Id %>"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '<%= site.analytics.ga4Id %>');
+  </script>
+</head>
+<body>
+  <%- include('../partials/nav') %>
+  
+  <!-- Page content here -->
+  <!-- This template is a placeholder. Replace with actual gallery page content. -->
+  <main style="margin-top: 64px;">
+    <section style="padding: 100px 60px; text-align: center;">
+      <h1><%= page.title %></h1>
+      <p><%= page.description %></p>
+      <p style="margin-top: 32px; color: #999;">
+        This is a template placeholder.<br>
+        Replace with actual gallery page content from your existing HTML file.
+      </p>
+    </section>
+  </main>
+  
+  <%- include('../partials/footer') %>
+  <%- include('../partials/popups') %>
+</body>
+</html>

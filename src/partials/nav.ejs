@@ -1,0 +1,15 @@
+<nav style="position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: <%= site.branding.colors.white %>; border-bottom: 1px solid #E8E8E8; display: flex; align-items: center; justify-content: space-between; padding: 0 60px; height: 84px;">
+  <a href="/" style="font-weight: 600; font-size: 24px; letter-spacing: 0.12em; text-transform: uppercase; color: <%= site.branding.colors.black %>; text-decoration: none;">
+    <%= site.name %>
+  </a>
+  
+  <ul style="display: flex; gap: 36px; list-style: none; align-items: center;">
+    <% site.navigation.main.forEach(link => { %>
+      <li>
+        <a href="/boomhaus-homepage.html" style="font-size: 14px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none; color: <%= site.branding.colors.black %>; transition: color 0.2s;">
+          <%= link.label %>
+        </a>
+      </li>
+    <% }); %>
+  </ul>
+</nav>

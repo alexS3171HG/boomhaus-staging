@@ -1,0 +1,98 @@
+{
+  "site": {
+    "name": "BoomHaus",
+    "tagline": "Design That Performs.",
+    "domain": "https://boomhaus.design",
+    "description": "Professional interior design and curated furniture packs for Airbnb, short-let, and BTR properties.",
+    "email": "hello@boomhaus.design",
+    "whatsapp": "447767677198"
+  },
+  "branding": {
+    "colors": {
+      "primary": "#993333",
+      "black": "#1A1A1A",
+      "white": "#FFFFFF",
+      "greyDark": "#666666",
+      "greyLight": "#F0F0F0",
+      "warm": "#FAF8F5"
+    },
+    "fonts": {
+      "primary": "Jost"
+    },
+    "logo": {
+      "url": "/assets/images/Logo-transparent.webp",
+      "alt": "BoomHaus"
+    }
+  },
+  "navigation": {
+    "main": [
+      { "label": "About", "href": "/about" },
+      { "label": "Furniture Packs", "href": "/furniture-packs" },
+      { "label": "Hosts", "href": "/airbnb-host" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "secondary": [
+      { "label": "Privacy Policy", "href": "/privacy-policy" },
+      { "label": "Terms", "href": "/terms" }
+    ]
+  },
+  "footer": {
+    "contactEmail": "hello@boomhaus.design",
+    "whatsapp": "447767677198",
+    "address": "London, UK",
+    "socialLinks": [
+      { "platform": "instagram", "url": "https://instagram.com/boomhaus.design" },
+      { "platform": "whatsapp", "url": "https://wa.me/447767677198" }
+    ]
+  },
+  "site": {
+  "name": "BoomHaus",
+  "domain": "https://boomhaus.design",
+  "email": "hello@boomhaus.design",
+  "whatsapp": "447767677198"
+},
+  "analytics": {
+    "ga4Id": "G-DZM9SB4J9V"
+  },
+  "seo": {
+    "defaultOgImage": "/assets/images/Logo-transparent.webp",
+    "twitterHandle": "@boomhaus"
+  },
+  "furniturePacks": [
+    {
+      "name": "The Blakethrough",
+      "slug": "the-blakethrough",
+      "description": "Dark, dramatic, deeply instagrammable",
+      "price": "£4,699",
+      "image": "/assets/images/products/pack-blakethrough-hero.webp"
+    },
+    {
+      "name": "The BTR",
+      "slug": "the-btr",
+      "description": "Professional, versatile, investment-grade",
+      "price": "£4,999",
+      "image": "/assets/images/products/pack-btr-hero.webp"
+    },
+    {
+      "name": "The Classic",
+      "slug": "the-classic",
+      "description": "Timeless, sophisticated, always in style",
+      "price": "£3,999",
+      "image": "/assets/images/products/pack-classic-hero.webp"
+    },
+    {
+      "name": "The Lois",
+      "slug": "the-lois",
+      "description": "Warm, inviting, beautifully curated",
+      "price": "£3,499",
+      "image": "/assets/images/products/pack-lois-hero.webp"
+    },
+    {
+      "name": "The Take Five",
+      "slug": "the-take-five",
+      "description": "Playful, energetic, conversation-starting",
+      "price": "£3,299",
+      "image": "/assets/images/products/pack-take-five-hero.webp"
+    }
+  ]
+}

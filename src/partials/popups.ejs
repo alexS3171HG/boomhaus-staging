@@ -1,0 +1,107 @@
+<!-- ========== POPUPS ========== -->
+<!-- All 4 popup contact forms with HubSpot integration -->
+<!-- This partial is included on all pages where contact functionality is needed -->
+
+<!-- POPUP 1: GENERAL INQUIRY -->
+<div class="popup-overlay" id="popup-general" style="display: none;">
+  <div class="popup-modal">
+    <button class="popup-close" onclick="closePopup('popup-general')" aria-label="Close">&times;</button>
+    <div class="popup-header">
+      <span class="popup-eyebrow">Get in Touch</span>
+      <h2 class="popup-headline">Not sure where to start?</h2>
+      <p class="popup-subheading">Let's figure out what's actually possible.</p>
+    </div>
+    <p class="popup-body">Maybe you know you want to redesign. Maybe you just know something needs to change. Either way, a quick conversation helps. We'll listen, ask some questions, and give you an honest sense of what we'd do and how we'd do it.<br><br>No sales pitch. Just ideas that might work for you.</p>
+    <div class="popup-content">
+      <div class="hs-form-wrapper" style="margin-top: 16px;">
+        <script src="https://js-eu1.hsforms.net/forms/embed/146792842.js" defer></script>
+        <div class="hs-form-frame" data-region="eu1" data-form-id="48fd9f77-8d48-42ad-a27b-ad7094304493" data-portal-id="146792842"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- POPUP 2: HOSPITALITY INQUIRY -->
+<div class="popup-overlay" id="popup-hospitality" style="display: none;">
+  <div class="popup-modal">
+    <button class="popup-close" onclick="closePopup('popup-hospitality')" aria-label="Close">&times;</button>
+    <div class="popup-header">
+      <span class="popup-eyebrow">Hospitality</span>
+      <h2 class="popup-headline">Growing your hospitality business?</h2>
+      <p class="popup-subheading">Let's talk about what's actually holding you back.</p>
+    </div>
+    <p class="popup-body">Whether it's occupancy, guest reviews, unit turnover, or brand consistency—we've worked on projects just like yours. A conversation usually uncovers things you hadn't even thought about.<br><br>Tell us a bit about your situation. We'll ask some questions, listen, and give you real thoughts on what's possible.</p>
+    <div class="popup-content">
+      <div class="hs-form-wrapper" style="margin-top: 16px;">
+        <script src="https://js-eu1.hsforms.net/forms/embed/146792842.js" defer></script>
+        <div class="hs-form-frame" data-region="eu1" data-form-id="48fd9f77-8d48-42ad-a27b-ad7094304493" data-portal-id="146792842"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- POPUP 3: RESIDENTIAL INQUIRY -->
+<div class="popup-overlay" id="popup-residential" style="display: none;">
+  <div class="popup-modal">
+    <button class="popup-close" onclick="closePopup('popup-residential')" aria-label="Close">&times;</button>
+    <div class="popup-header">
+      <span class="popup-eyebrow">Residential</span>
+      <h2 class="popup-headline">Ready to actually love your home?</h2>
+      <p class="popup-subheading">Let's talk about what would make the difference.</p>
+    </div>
+    <p class="popup-body">Whether you're starting from scratch or just need a refresh, a good conversation helps. We'll understand what matters to you, how you actually live, and what would genuinely improve things.<br><br>No showroom vibes. Just a space that feels right.</p>
+    <div class="popup-content">
+      <div class="hs-form-wrapper" style="margin-top: 16px;">
+        <script src="https://js-eu1.hsforms.net/forms/embed/146792842.js" defer></script>
+        <div class="hs-form-frame" data-region="eu1" data-form-id="e3852bf6-18c0-409c-97e7-7a7a222d271f" data-portal-id="146792842"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- POPUP 4: FURNITURE PACKS GUIDANCE -->
+<div class="popup-overlay" id="popup-furniture-guidance" style="display: none;">
+  <div class="popup-modal">
+    <button class="popup-close" onclick="closePopup('popup-furniture-guidance')" aria-label="Close">&times;</button>
+    <div class="popup-header">
+      <span class="popup-eyebrow">Furniture Packs</span>
+      <h2 class="popup-headline">Not sure which pack is right for you?</h2>
+      <p class="popup-subheading">Let's figure it out together.</p>
+    </div>
+    <p class="popup-body">You've seen the options—now let's make sure you pick the pack that actually works for your space. A quick chat with us takes 15 minutes and saves you weeks of second-guessing.<br><br>We'll help you think through which pack fits your space and vibe, what the timeline looks like, any tweaks that make sense, and budget logistics.<br><br>No pressure. If after chatting you're still deciding, we'll just send you all the info and you can take your time.</p>
+    <div class="popup-content">
+      <div class="hs-form-wrapper" style="margin-top: 16px;">
+        <script src="https://js-eu1.hsforms.net/forms/embed/146792842.js" defer></script>
+        <div class="hs-form-frame" data-region="eu1" data-form-id="48fd9f77-8d48-42ad-a27b-ad7094304493" data-portal-id="146792842"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function openPopup(popupId) {
+    const popup = document.getElementById(popupId);
+    if (popup) {
+      popup.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }
+  }
+  function closePopup(popupId) {
+    const popup = document.getElementById(popupId);
+    if (popup) {
+      popup.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    }
+  }
+  document.addEventListener('click', function(event) {
+    if (event.target.classList && event.target.classList.contains('popup-overlay')) {
+      closePopup(event.target.id);
+    }
+  });
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      const openPopups = document.querySelectorAll('.popup-overlay[style*="display: flex"]');
+      openPopups.forEach(popup => closePopup(popup.id));
+    }
+  });
+</script>

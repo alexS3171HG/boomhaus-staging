@@ -1,0 +1,232 @@
+{
+  "pages": {
+    "homepage": {
+      "filename": "boomhaus-homepage.html",
+      "template": "landing-page.ejs",
+      "title": "BoomHaus | Interior Design & Furniture Packs for Short-Let & BTR",
+      "description": "Professional interior design and curated furniture packs for Airbnb, short-let, and BTR properties. From £4,699.",
+      "slug": "/",
+      "type": "landing"
+    },
+    "about": {
+      "filename": "boomhaus-about.html",
+      "template": "landing-page.ejs",
+      "title": "About BoomHaus | Interior Design Studio",
+      "description": "Learn about BoomHaus, our approach to interior design, and how we create high-performing spaces.",
+      "slug": "/about",
+      "type": "landing"
+    },
+    "hospitality": {
+      "filename": "boomhaus-hospitality.html",
+      "template": "landing-page.ejs",
+      "title": "Hospitality Design | Interior Design for Airbnb & BTR",
+      "description": "Professional interior design services for hospitality properties. Increase occupancy and guest satisfaction.",
+      "slug": "/hospitality",
+      "type": "landing"
+    },
+    "residential": {
+      "filename": "boomhaus-residential.html",
+      "template": "landing-page.ejs",
+      "title": "Residential Interior Design | London",
+      "description": "Bespoke residential interior design for homes in London. Create spaces you'll love living in.",
+      "slug": "/residential",
+      "type": "landing"
+    },
+    "london-designer": {
+      "filename": "boomhaus-london-interior-designer.html",
+      "template": "landing-page.ejs",
+      "title": "London Interior Designer | BoomHaus",
+      "description": "Award-winning interior designer in London. Specialising in hospitality, residential, and BTR design.",
+      "slug": "/london-interior-designer",
+      "type": "landing"
+    },
+    "airbnb-host": {
+      "filename": "boomhaus-airbnb-host.html",
+      "template": "landing-page.ejs",
+      "title": "Airbnb Host Tools | Property Design & Audit",
+      "description": "Design services and free superhost audits for Airbnb property owners. Increase bookings and reviews.",
+      "slug": "/airbnb-host",
+      "type": "landing"
+    },
+    "furniture-packs": {
+      "filename": "boomhaus-furniture-packs.html",
+      "template": "landing-page.ejs",
+      "title": "Furniture Packs | BoomHaus",
+      "description": "Curated furniture packages for short-let and BTR properties. The Blakethrough, BTR, Classic, Lois, Take Five.",
+      "slug": "/furniture-packs",
+      "type": "landing"
+    },
+    "contact": {
+      "filename": "boomhaus-contact.html",
+      "template": "landing-page.ejs",
+      "title": "Contact | BoomHaus",
+      "description": "Get in touch with BoomHaus for design services, furniture packs, or audits.",
+      "slug": "/contact",
+      "type": "landing"
+    },
+    "blakethrough": {
+      "filename": "boomhaus-the-blakethrough.html",
+      "template": "product-page.ejs",
+      "title": "The Blakethrough | Furniture Pack | BoomHaus",
+      "description": "The Blakethrough furniture pack. Dark, dramatic, deeply instagrammable. From £4,699 for a 1-bed.",
+      "slug": "/the-blakethrough",
+      "type": "product",
+      "pack": "The Blakethrough",
+      "packSlug": "the-blakethrough",
+      "heroImage": "/assets/images/products/pack-blakethrough-hero.webp"
+    },
+    "btr-pack": {
+      "filename": "boomhaus-the-btr.html",
+      "template": "product-page.ejs",
+      "title": "The BTR | Furniture Pack | BoomHaus",
+      "description": "The BTR furniture pack. Professional, versatile, investment-grade. From £4,999 for a 1-bed.",
+      "slug": "/the-btr",
+      "type": "product",
+      "pack": "The BTR",
+      "packSlug": "the-btr",
+      "heroImage": "/assets/images/products/pack-btr-hero.webp"
+    },
+    "classic": {
+      "filename": "boomhaus-the-classic.html",
+      "template": "product-page.ejs",
+      "title": "The Classic | Furniture Pack | BoomHaus",
+      "description": "The Classic furniture pack. Timeless, sophisticated, always in style. From £3,999 for a 1-bed.",
+      "slug": "/the-classic",
+      "type": "product",
+      "pack": "The Classic",
+      "packSlug": "the-classic",
+      "heroImage": "/assets/images/products/pack-classic-hero.webp"
+    },
+    "lois": {
+      "filename": "boomhaus-the-lois.html",
+      "template": "product-page.ejs",
+      "title": "The Lois | Furniture Pack | BoomHaus",
+      "description": "The Lois furniture pack. Warm, inviting, beautifully curated. From £3,499 for a 1-bed.",
+      "slug": "/the-lois",
+      "type": "product",
+      "pack": "The Lois",
+      "packSlug": "the-lois",
+      "heroImage": "/assets/images/products/pack-lois-hero.webp"
+    },
+    "take-five": {
+      "filename": "boomhaus-the-take-five.html",
+      "template": "product-page.ejs",
+      "title": "The Take Five | Furniture Pack | BoomHaus",
+      "description": "The Take Five furniture pack. Playful, energetic, conversation-starting. From £3,299 for a 1-bed.",
+      "slug": "/the-take-five",
+      "type": "product",
+      "pack": "The Take Five",
+      "packSlug": "the-take-five",
+      "heroImage": "/assets/images/products/pack-take-five-hero.webp"
+    },
+    "blakethrough-gallery": {
+      "filename": "boomhaus-the-blakethrough-gallery.html",
+      "template": "gallery-page.ejs",
+      "title": "The Blakethrough Gallery | BoomHaus",
+      "description": "Full product specification gallery for The Blakethrough furniture pack.",
+      "slug": "/the-blakethrough/gallery",
+      "type": "gallery",
+      "packSlug": "the-blakethrough"
+    },
+    "btr-gallery": {
+      "filename": "boomhaus-the-btr-gallery.html",
+      "template": "gallery-page.ejs",
+      "title": "The BTR Gallery | BoomHaus",
+      "description": "Full product specification gallery for The BTR furniture pack.",
+      "slug": "/the-btr/gallery",
+      "type": "gallery",
+      "packSlug": "the-btr"
+    },
+    "classic-gallery": {
+      "filename": "boomhaus-the-classic-gallery.html",
+      "template": "gallery-page.ejs",
+      "title": "The Classic Gallery | BoomHaus",
+      "description": "Full product specification gallery for The Classic furniture pack.",
+      "slug": "/the-classic/gallery",
+      "type": "gallery",
+      "packSlug": "the-classic"
+    },
+    "lois-gallery": {
+      "filename": "boomhaus-the-lois-gallery.html",
+      "template": "gallery-page.ejs",
+      "title": "The Lois Gallery | BoomHaus",
+      "description": "Full product specification gallery for The Lois furniture pack.",
+      "slug": "/the-lois/gallery",
+      "type": "gallery",
+      "packSlug": "the-lois"
+    },
+    "take-five-gallery": {
+      "filename": "boomhaus-the-take-five-gallery.html",
+      "template": "gallery-page.ejs",
+      "title": "The Take Five Gallery | BoomHaus",
+      "description": "Full product specification gallery for The Take Five furniture pack.",
+      "slug": "/the-take-five/gallery",
+      "type": "gallery",
+      "packSlug": "the-take-five"
+    },
+    "thank-you-order": {
+      "filename": "boomhaus-thank-you-order.html",
+      "template": "utility-page.ejs",
+      "title": "Thank You | Order Confirmed",
+      "description": "Thank you for your order.",
+      "slug": "/thank-you/order",
+      "type": "utility"
+    },
+    "thank-you-enquiry": {
+      "filename": "boomhaus-thank-you-enquiry.html",
+      "template": "utility-page.ejs",
+      "title": "Thank You | Enquiry Received",
+      "description": "Thank you for your enquiry.",
+      "slug": "/thank-you/enquiry",
+      "type": "utility"
+    },
+    "thank-you-audit": {
+      "filename": "boomhaus-thank-you-audit.html",
+      "template": "utility-page.ejs",
+      "title": "Thank You | Audit Request Received",
+      "description": "Thank you for requesting a superhost audit.",
+      "slug": "/thank-you/audit",
+      "type": "utility"
+    },
+    "order": {
+      "filename": "boomhaus-order.html",
+      "template": "landing-page.ejs",
+      "title": "Order Furniture Packs | BoomHaus",
+      "description": "Order furniture packs from BoomHaus.",
+      "slug": "/order",
+      "type": "landing"
+    },
+    "privacy-policy": {
+      "filename": "boomhaus-privacy-policy.html",
+      "template": "utility-page.ejs",
+      "title": "Privacy Policy | BoomHaus",
+      "description": "Privacy policy for BoomHaus website.",
+      "slug": "/privacy-policy",
+      "type": "utility"
+    },
+    "terms": {
+      "filename": "boomhaus-terms.html",
+      "template": "utility-page.ejs",
+      "title": "Terms & Conditions | BoomHaus",
+      "description": "Terms and conditions for BoomHaus website.",
+      "slug": "/terms",
+      "type": "utility"
+    },
+    "superhost": {
+      "filename": "boomhaus-superhost-v2.html",
+      "template": "landing-page.ejs",
+      "title": "Superhost Audit | Free Design Review",
+      "description": "Free Superhost Audit for Airbnb property owners. Get actionable design recommendations.",
+      "slug": "/superhost-audit",
+      "type": "landing"
+    },
+    "404": {
+      "filename": "404.html",
+      "template": "utility-page.ejs",
+      "title": "Page Not Found | BoomHaus",
+      "description": "Page not found.",
+      "slug": "/404",
+      "type": "utility"
+    }
+  }
+}

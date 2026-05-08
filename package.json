@@ -1,0 +1,25 @@
+{
+  "name": "boomhaus-website",
+  "version": "1.0.0",
+  "description": "BoomHaus Website - Template-based build system for 28 pages",
+  "main": "src/build.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "dev": "node src/build.js && echo 'Build complete. Files ready in /public'",
+    "watch": "nodemon src/build.js"
+  },
+  "keywords": [
+    "boomhaus",
+    "website",
+    "template",
+    "sanity-cms"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
